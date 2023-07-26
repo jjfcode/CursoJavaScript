@@ -13,4 +13,7 @@ var cadena_texto = "hola que tal";
 var verdadero_o_falso = true; // o false
 
 var numero_falso = "33";
-console.log(Number(numero_falso)+7);
+
+console.log(typeof numero_entero);
+console.log(typeof cadena_texto);
+console.log(typeof verdadero_o_falso);

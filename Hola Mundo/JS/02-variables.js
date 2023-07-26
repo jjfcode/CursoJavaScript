@@ -8,7 +8,9 @@ var pais = "Espana";
 var continente = "Europa";
 var antiguedad = 2019;
 var pais_y_continente = pais+' '+continente;
-
+// let es como var
+let prueba = "hola";
+alert(prueba)
 pais = "USA";
 
 console.log(pais, continente, antiguedad);

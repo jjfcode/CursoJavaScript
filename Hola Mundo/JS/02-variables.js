@@ -1,3 +1,4 @@
+// el use strict es para que el codigo sea estricto
 'use strict'
 
 // VARIABLES

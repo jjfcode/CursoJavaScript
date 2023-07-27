@@ -42,3 +42,29 @@ if(edad >= 18){
 }else{
     console.log(nombre+" tiene "+edad+" anos, es menor de edad");
 }
+
+/*
+Operadores Logicos
+AND(y): &&
+OR(o): ||
+Negacion: |
+*/
+
+var year = 2023;
+
+// Negacion
+if(year != 2021){
+    console.log("El ano no es 2021 realmente es: "+year);
+}
+
+// AND
+if(year >= 2010 && year <= 2025 != 2023){
+    console.log("Estamos en la era actual");
+}else{
+    console.log("Estamos en la era post moderna");
+}
+
+// OR
+if(year == 2018 || year == 2023){
+    console.log('el ano se acaba en 3');
+}

@@ -8,14 +8,18 @@ while(year != 1991){
     // ejecuta esto
     console.log("Estamos en el ano: "+year);
 
+    if(year == 2000){
+        break;
+    }
+
     year--;
 }
 
 // Do While
 
-var year = 30;
+// var year = 30;
 
-do{
-    alert("Solo cuando sea diferente a 20");
-    year--;
-}while(year > 25)
+// do{
+//     alert("Solo cuando sea diferente a 20");
+//     year--;
+// }while(year > 25)
